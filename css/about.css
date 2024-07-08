@@ -5,17 +5,17 @@
 }
 
 
-.conta{
+.container{
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
-header{
+.header{
     margin-top: 40px;
     display: flex;
 }
 
-header h1{
+.header h1{
     margin-left: 40px;
     border-radius: 10px;
     width: 50px;
@@ -26,24 +26,23 @@ header h1{
     color: white;
     margin-left: 100px;
 }
-.but button{
+.button button{
     color: #394E6A;
     font-size: 20px;
     margin-left: 20px;
     background-color: transparent;
     border: 1px solid transparent;
 }
-#but2{
+#button2 {
     display: none;
 }
-.but{
-   
+.button {
     margin-top: 25px;
     gap: 50px;
     margin-left: 200px;
     justify-content: space-between;
 }
-header ul{
+.header ul{
     margin-top: 25px;
     margin-left: 350px;
     text-decoration: none;
@@ -52,12 +51,12 @@ header ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     gap: 50px;
 }
-header ul a{
+.header ul a{
     transition: 1s all ease;
     color: #394E6A;
     text-decoration: none;
 }
-header a:hover{
+.header a:hover{
     width: 70px;
     height: 40px;
     padding: 10px;

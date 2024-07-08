@@ -5,17 +5,17 @@
 }
 
 
-.conta{
+.container{
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
-header{
+.header{
     margin-top: 40px;
     display: flex;
 }
 
-header h1{
+.header h1{
     margin-left: 40px;
     border-radius: 10px;
     width: 50px;
@@ -26,24 +26,23 @@ header h1{
     color: white;
     margin-left: 100px;
 }
-.but button{
+.button button{
     color: #394E6A;
     font-size: 20px;
     margin-left: 20px;
     background-color: transparent;
     border: 1px solid transparent;
 }
-#but2{
+#button2{
     display: none;
 }
-.but{
-   
+.button{
     margin-top: 25px;
     gap: 50px;
     margin-left: 200px;
     justify-content: space-between;
 }
-header ul{
+.header ul{
     transition: 1s all ease;
     margin-top: 25px;
     margin-left: 350px;
@@ -53,11 +52,11 @@ header ul{
     display: flex;
     gap: 50px;
 }
-header ul a{
+.header ul a{
     color: #394E6A;
     text-decoration: none;
 }
-header a:hover{
+.header a:hover{
     width: 70px;
     height: 40px;
     padding: 10px;
@@ -74,20 +73,20 @@ header a:hover{
     width: 980px;
     font-size: 5px;
 }
-.bl2 img{
+.block2 img{
     margin-left: 180px;
     margin-top: 15px;
     border-radius: 10px;
     width: 400px;
 }
 
-.bl1 h1{
+.block1 h1{
     color:  #394E6A;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 40px;
     font-size: 50px;
 }
-.bl1 h3{
+.block1 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
     color:  #394E6A;
@@ -95,7 +94,7 @@ header a:hover{
     font-size: 18px;
 }
 
-.bl1 button{
+.block1 button{
     border-radius: 10px;
     border: 2px solid  #057AFF;
     background-color:  #057AFF;

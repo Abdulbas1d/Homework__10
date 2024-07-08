@@ -5,17 +5,18 @@
 }
 
 
-.conta{
+.container{
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
-header{
+
+.header{
     margin-top: 40px;
     display: flex;
 }
 
-header h1{
+.header h1{
     margin-left: 40px;
     border-radius: 10px;
     width: 50px;
@@ -26,14 +27,14 @@ header h1{
     color: white;
     margin-left: 100px;
 }
-.but button{
+.button button{
     color: #394E6A;
     font-size: 20px;
     margin-left: 20px;
     background-color: transparent;
     border: 1px solid transparent;
 }
-#but2{
+#button2{
     display: none;
 }
 .but{
@@ -43,7 +44,7 @@ header h1{
     margin-left: 200px;
     justify-content: space-between;
 }
-header ul{
+.header ul{
     margin-top: 25px;
     margin-left: 350px;
     text-decoration: none;
@@ -52,12 +53,12 @@ header ul{
     display: flex;
     gap: 50px;
 }
-header ul a{
+.header ul a{
     transition: 1s all ease;
     color: #394E6A;
     text-decoration: none;
 }
-header a:hover{
+.header a:hover{
     width: 70px;
     height: 40px;
     padding: 10px;
@@ -69,40 +70,40 @@ header a:hover{
 .main1{
     display: flex;
 }
-.m1 img{
+.main_1 img{
     border-radius: 15px;
     margin-top: 30px;
     width: 500px;
 }
-.m2 h1{
+.main_2 h1{
     margin-left: 40px;
     margin-top: 70px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.m2 h3{
+.main_2 h3{
     color: #394E6A;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 15px;
     margin-left: 40px;
 }
-.m2 h2{
+.main_2 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
     margin-left: 40px;
 }
-.m2 p{
+.main_2 p{
     margin-left: 40px;
     margin-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.m2 select{
+.main_2 select{
     border-radius: 5px;
     margin-top: 15px;
     width: 170px;
     height: 30px;
     margin-left: 40px;
 }
-.m2 button{
+.main_2 button{
     color: white;
     background-color: #057AFF;
     border: 1px solid #057AFF;
